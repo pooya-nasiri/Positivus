@@ -8,15 +8,15 @@ const Layout = () => {
     console.log(open)
   return (
     <>
-    <header className=" transform transition ease-in left-0 top-0 px-3 pt-1 fixed w-full bg-white ">
+    <header className=" transform transition ease-out delay-200 left-0 top-0 px-4 pt-1 fixed w-full bg-white ">
         <div className="flex justify-between items-center">
             <ul>
             <li>
-            <Link to="/"><img src={LogoHeader} alt="link" className="w-40" /></Link>
+            <Link to="/"><img src={LogoHeader} alt="link" className="w-33" /></Link>
           </li>
             </ul>
-            <FaBars onClick={()=>{setopen(true)}} className={`${open ? `hidden`:`flex`} text-gray-500 text-xl`}/>
-            <IoCloseSharp onClick={()=>{setopen(false)}} className={`${open ? `flex`:`hidden`} text-xl`}/>
+            <FaBars onClick={()=>{setopen(true)}} className={`${open ? `hidden`:`flex`} text-gray-500 text-xm`}/>
+            <IoCloseSharp onClick={()=>{setopen(false)}} className={`${open ? `flex`:`hidden`} text-xm`}/>
         </div>
     <nav className={`${open ? `flex`:`hidden`} text-dark text-xl`} >
         <ul>
