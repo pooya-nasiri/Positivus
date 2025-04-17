@@ -21,7 +21,7 @@ function HeroSection() {
             <img src={companyse} alt="companyes"   />
                 </div>
             </Marquee>
-            <Marquee direction='right' speed={40} className='mt-1' >
+            <Marquee direction='right' speed={40} className='mt-4' >
                 <div className='overflow-hidden w-250'>
             <img src={companyse} alt="companyes"   />
                 </div>
