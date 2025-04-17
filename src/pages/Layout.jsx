@@ -18,7 +18,7 @@ const Layout = () => {
             <FaBars onClick={()=>{setopen(true)}} className={`${open ? `hidden`:`flex`} text-gray-500 text-xl`}/>
             <IoCloseSharp onClick={()=>{setopen(false)}} className={`${open ? `flex`:`hidden`} text-xl`}/>
         </div>
-    <nav className={`${open ? `flex`:`hidden`} text-dark`} >
+    <nav className={`${open ? `flex`:`hidden`} text-dark text-xl`} >
         <ul>
           
           <li>
