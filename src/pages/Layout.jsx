@@ -8,11 +8,11 @@ const Layout = () => {
     console.log(open)
   return (
     <>
-    <header className=" transform transition ease-in left-0 top-0 px-2.5 pt-1 fixed w-full bg-white ">
+    <header className=" transform transition ease-in left-0 top-0 px-3 pt-1 fixed w-full bg-white ">
         <div className="flex justify-between items-center">
             <ul>
             <li>
-            <Link to="/"><img src={LogoHeader} alt="link" className="w-30" /></Link>
+            <Link to="/"><img src={LogoHeader} alt="link" className="w-40" /></Link>
           </li>
             </ul>
             <FaBars onClick={()=>{setopen(true)}} className={`${open ? `hidden`:`flex`} text-gray-500 text-xl`}/>
