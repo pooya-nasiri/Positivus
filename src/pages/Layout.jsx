@@ -8,7 +8,7 @@ const Layout = () => {
     console.log(open)
   return (
     <>
-    <header className="mb-3">
+    <header className=" transform transition ease-in left-0 top-0 px-2.5 pt-1 fixed w-full bg-white ">
         <div className="flex justify-between items-center">
             <ul>
             <li>
@@ -18,7 +18,7 @@ const Layout = () => {
             <FaBars onClick={()=>{setopen(true)}} className={`${open ? `hidden`:`flex`} text-gray-500 text-xl`}/>
             <IoCloseSharp onClick={()=>{setopen(false)}} className={`${open ? `flex`:`hidden`} text-xl`}/>
         </div>
-    <nav className={`${open ? `flex`:`hidden`} text-dark `} >
+    <nav className={`${open ? `flex`:`hidden`} text-dark`} >
         <ul>
           
           <li>
@@ -37,7 +37,7 @@ const Layout = () => {
             <Link to="/blog" className="hover:bg-greenLight hover:border-greenLight rounded-xl focus:bg-greenLight focus:border-greenLight p-1 ">Blog</Link>
           </li>
         
-          <li className="mt-2">
+          <li className="my-2">
             <Link to="/requestAquote" className="focus:bg-greenLight focus:border-greenLight border rounded-xl px-2 py-1">Request a quote</Link>
           </li>
         </ul>
