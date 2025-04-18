@@ -5,8 +5,8 @@ import Marquee from "react-fast-marquee";
 
 function HeroSection() {
   return (
-    <div>
-        <div className='space-y-2 mt-6 '>
+    <section>
+        <div className='space-y-2'>
             <h1 className='text-[clamp(2rem,10vw,30rem)] font-semibold'>Navigating the digital landscape for success</h1>
             <img src={heroSection}alt='logo'/>
         </div>
@@ -27,7 +27,7 @@ function HeroSection() {
                 </div>
             </Marquee>
         </div>
-    </div>
+    </section>
   )
 }
 
