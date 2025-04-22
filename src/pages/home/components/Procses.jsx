@@ -67,7 +67,7 @@ function Procses() {
         </div>
 
         <div className='flex flex-col '>
-            <div className={`${click2 ? 'bg-greenLight':'bg-whiteMlike'} rounded-xl p-4 transition ease-in-out  border-b-4 border`}>
+            <div className={`${click3 ? 'bg-greenLight':'bg-whiteMlike'} rounded-xl p-4 transition ease-in-out  border-b-4 border`}>
                 {/* header */}
                 <div>
                     <div className=' border-b flex items-center justify-between w-full pb-2'>
