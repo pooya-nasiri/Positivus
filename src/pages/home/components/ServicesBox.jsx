@@ -119,11 +119,11 @@ function ServicesBox() {
             <div className='p-8 border rounded-2xl border-b-5 bg-dark'>
                 {/* title */}
                 <div>
-                    <span className='bg-greenLight rounded-xs font-semibold p-1'>
+                    <span className='bg-greenLight rounded-xl font-semibold p-1'>
                     Analytics and 
                     </span>
                     <br/>
-                    <span className='bg-greenLight rounded-xs font-semibold p-1'>
+                    <span className='bg-greenLight rounded-xl font-semibold p-1'>
                     Tracking
                     </span>
                 </div>
