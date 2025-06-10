@@ -8,7 +8,7 @@ const Layout = () => {
     console.log(open)
   return (
     <>
-    <header className=" transform transition ease-out delay-200 left-0 top-0 px-4 pt-1 fixed w-full bg-white ">
+    <header className=" transform transition ease-out delay-200 left-0 top-0 px-4 pt-1 fixed w-full bg-white  bg-blue-500 ">
         <div className="flex justify-between items-center">
             <ul>
             <li>
